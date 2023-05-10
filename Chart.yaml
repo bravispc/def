@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: 1.4.2
+dependencies:
+- condition: deployKubernetesScanner
+  name: deepfence-k8s-scanner
+  repository: https://deepfence-helm-charts.s3.amazonaws.com/deepfence-k8s-scanner
+  version: 0.1.0
+description: Deepfence Agent - Helm chart for Kubernetes
+name: deepfence-agent
+type: application
+version: 1.4.9
